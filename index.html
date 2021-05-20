@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/42720e0840.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Css/Q2Style.css">
+    <link rel="icon" href="imgs/icon.png">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bgColor shadwNav">
+                <a class="navbar-brand active" href="#">
+                    <i class="fas fa-home text-white navIcons"></i> Logo
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-globe-europe text-white navIcons"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-user text-white navIcons"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-envelope text-white navIcons"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-bell text-white navIcons"> </i>
+                                <span class="badge badge-pill badge-success">3</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="float-right">
+                    <a class="" href="#">
+                        <img class="img-circle" alt="Profile Picture" src="imgs/ProfilePic.jpg" width="40px">
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <section>
+        <div class="container-fluid PaddingTop">
+            <div class="row ">
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 ">
+                    <div class="card shadow p-3 mb-5 bg-white rounded ">
+                        <h1 class="text-center font-weight-bold">
+                            My Profile
+                        </h1>
+                        <img class="img-circle card-img-top" alt="Profile Picture" src="imgs/ProfilePic.jpg">
+                        <hr>
+                        <div class="card-body">
+                            <i class="fas fa-pen px-2 profileIcons text-secondary"></i>
+                            <span>
+                                Software Developer
+                            </span>
+                            <br>
+                            <i class="fas fa-home px-2 profileIcons text-secondary"></i>
+                            <span>
+                                Cairo , Egypt
+                            </span>
+                            <br>
+                            <i class="fas fa-birthday-cake px-2 profileIcons text-secondary"></i>
+                            <span>
+                                June 24, 1997
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card shadow p-3 mb-5 bg-secondary rounded ">
+                        <div class="card-body">
+                            <i class="fas fa-circle-notch profileIcons px-2 text-white"></i>
+                            <span class="text-white cursor">
+                                My Groups
+                            </span>
+                            <br>
+                            <i class="fas fa-calendar-check profileIcons px-2 text-white"></i>
+                            <span class="text-white cursor">
+                                My Events
+                            </span>
+                            <br>
+                            <i class="fas fa-users profileIcons px-1 text-white"></i>
+                            <span class="text-white cursor">
+                            My Photos
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card shadow p-3 mb-5  bg-white rounded">
+                        <div class="card-body">
+                            <h4 class="font-weight-bold">
+                                Interests
+                            </h4>
+                            <span class="badge badge-secondary bg-dark">News</span>
+                            <span class="badge badge-secondary bg-dark">Label</span>
+                            <span class="badge badge-secondary bg-dark">Games</span>
+                            <span class="badge badge-secondary bg-dark">ITI</span>
+                            <br>
+                            <span class="badge badge-secondary bg-danger">Friends</span>
+                            <span class="badge badge-secondary bg-danger">Games</span>
+                            <span class="badge badge-secondary bg-danger">Movies</span>
+                            <span class="badge badge-secondary bg-danger">Food</span>
+                            <span class="badge badge-secondary bg-danger">Ui</span>
+                            <br>
+                            <span class="badge badge-secondary bg-info">Development</span>
+                            <span class="badge badge-secondary bg-info">ITI</span>
+                        </div>
+                    </div>
+                    <div class="mb-5 rounded ">
+                        <div class="alert alert-info alert-dismissible fade show cursor ">
+                            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                            <strong>HEY!</strong><br> People are looking at your profile. find out who .
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7 ">
+                    <div class="card shadow p-3 mb-5 bg-white rounded">
+                        <h3 class="font-weight-bold">
+                            New Post
+                        </h3>
+                        <div class="card-body ">
+                            <div class="form-group">
+                                <input type="text" class="form-control font-weight-bold" id="comment" value="Status: Feeling Blue">
+                            </div>
+                            <button class="btn btn-primary font-weight-bold">
+                                <i class="fas fa-pen profileIcons px-1 text-white"></i>
+                                Post
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card shadow p-3 mb-5 bg-white rounded ">
+                        <h5 class="font-weight-bold">Jane Doe</h5>
+                        <img class="img-circle card-img-top imgWidth" alt="Friend profile Picture" src="imgs/p1.png">
+                        <hr>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente deleniti dolorum animi accusantium! Repellendus, tempora necessitatibus doloremque dolore corporis laudantium perspiciatis sed illo ea numquam culpa quis iusto repellat.
+                            </p>
+                            <div class="text-center">
+                                <img src="imgs/post1.jpg" class="imgPost" alt="post Picture">
+                                <img src="imgs/post2.jpg" class="imgPost" alt="post Picture">
+                            </div>
+                            <br>
+                            <button class="btn btn-primary font-weight-bold">
+                                <i class="fas fa-heart profileIcons px-1 text-white"></i>
+                                Like
+                            </button>
+                            <button class="btn btn-primary font-weight-bold">
+                                <i class="fas fa-comment profileIcons px-1 text-white"></i>
+                                Comment
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card shadow p-3 mb-5 bg-white rounded ">
+                        <h5 class="font-weight-bold">Amely Retchard</h5>
+                        <img class="img-circle card-img-top imgWidth" alt="Profile Friend picture" src="imgs/p2.png">
+                        <hr>
+                        <div class="card-body">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente deleniti dolorum animi accusantium! Repellendus, tempora necessitatibus doloremque dolore corporis laudantium perspiciatis sed illo ea numquam culpa quis iusto repellat.
+                            </p>
+                            <br>
+                            <button class="btn btn-primary font-weight-bold">
+                                <i class="fas fa-heart profileIcons px-1 text-white"></i>
+                                Like
+                            </button>
+                            <button class="btn btn-primary font-weight-bold">
+                                <i class="fas fa-comment profileIcons px-1 text-white"></i>
+                                Comment
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card shadow p-3 mb-5 bg-white rounded ">
+                        <h5 class="font-weight-bold">Robert johan</h5>
+                        <img class="img-circle card-img-top imgWidth" alt="Profile Friend Picture" src="imgs/p3.png">
+                        <hr>
+                        <div class="card-body">
+                            <p>
+                                Have You seen this ?
+                            </p>
+                            <div class="text-center">
+                                <img src="imgs/post3.jpg" class="imgPost" alt="post Picture">
+                                <img src="imgs/post4.jpg" class="imgPost" alt="post Picture">
+                            </div>
+                            <br>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente deleniti dolorum animi accusantium! Repellendus, tempora necessitatibus doloremque dolore corporis laudantium perspiciatis sed illo ea numquam culpa quis iusto repellat.
+                            </p>
+                            <br>
+                            <button class="btn btn-primary font-weight-bold">
+                                <i class="fas fa-heart profileIcons px-1 text-white"></i>
+                                Like
+                            </button>
+                            <button class="btn btn-primary font-weight-bold">
+                                <i class="fas fa-comment profileIcons px-1 text-white"></i>
+                                Comment
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 " id="rightSide">
+                    <div class="card shadow p-3 mb-5 bg-white rounded ">
+                        <h3 class="text-center font-weight-bold">
+                            Upcoming Events
+                        </h3>
+                        <img class="card-img-top" alt="Event Picture" src="imgs/Event.jpg">
+                        <div class="card-body text-center ">
+                            <p class="font-weight-bold">
+                                Holiday
+                            </p>
+                            <p>
+                                Friday 15:00
+                            </p>
+                            <button type="button" class="btn btn-primary btn-block">Info</button>
+                        </div>
+                    </div>
+                    <div class="card shadow p-3 mb-5 bg-white rounded ">
+                        <h3 class="text-center font-weight-bold">
+                            Friend request
+                        </h3>
+                        <img class="img-circle card-img-top" alt="Friend request Picture" src="imgs/request.jpg">
+                        <div class="card-body text-center ">
+                            <p class="font-weight-bold">
+                                Jane Doe
+                            </p>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-success btnWidth">
+                                    <i class="fas fa-check profileIcons"></i>
+                                </button>
+                                <button type="button" class="btn btn-danger btnWidth">
+                                    <i class="fas fa-times profileIcons"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card shadow p-3 mb-5 bg-white rounded ">
+                        <h3 class="text-center font-weight-bold">
+                            ADS
+                        </h3>
+                    </div>
+                    <div class="card shadow p-3 mb-5 bg-white rounded ">
+                        <h2 class="text-center font-weight-bold p-4">
+                            <i class="fas fa-bug"></i>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <section>
+            <div class="jumbotron jumbotron-fluid bgColor ">
+                <div class="containe text-center text-white ">
+                    <h2>All rights deserved</h2>
+                </div>
+            </div>
+            <div class="container text-center ">
+                <p class="text-dark ">
+                    <i class="fab fa-facebook-square SocialIcons px-2 "></i>
+                    <i class="fab fa-instagram SocialIcons px-2 "></i>
+                    <i class="fab fa-snapchat-square SocialIcons px-2 "></i>
+                    <i class="fab fa-pinterest-p SocialIcons px-2 "></i>
+                    <i class="fab fa-twitter SocialIcons px-2 "></i>
+                    <i class="fab fa-linkedin-in SocialIcons px-2 "></i>
+                </p>
+                <p class="specificColor">
+                    Powered by Mayar Araby : ITI
+                </p>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
