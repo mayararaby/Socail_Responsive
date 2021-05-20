@@ -6,5 +6,5 @@ You can check the live game from [here](https://socialiti.netlify.app/)
 
 ## Demo
 
-![demo](https://github.com/mayararaby/Socail_Responsive/blob/main/Demo.gif)
+![demo](https://github.com/mayararaby/Socail_Responsive/blob/main/2021-05-20-15-27-56-Trim.gif)
 
